@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: whitesmoke;
+}
+
+.instagram-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    min-height: 100vh;
+}
+
+.left-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    margin-top: 35px;
+}
+
+.img-div img{
+    height: 45rem;
+}
+
+.right-div{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    margin-top: -50px;
+}
+
+.right-div div{
+    margin: 5px 0;
+}
+
+.login-stuff{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+}
+
+.login-stuff h1{
+    font-size: 3.5rem;
+}
+
+.login-stuff input{
+    margin: 4px 0;
+    font-size: 12px;
+    height: 35px;
+    border: 2px solid lightgray;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.login-stuff button{
+    margin: 4px 0;
+    font-size: 14px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #B2DFFC;
+    color: white;
+}
+
+.or-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.or-bar hr{
+    width: 80px;
+}
+
+.or-bar p{
+    padding: 10px 15px;
+}
+
+.login-optn{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.login-optn div{
+    margin: 15px 0;
+}
+
+.sign-up-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid lightgray;
+    background-color: white;
+    padding: 20px;
+}
+.sign-up-part a{
+    margin-left: 5px;
+}
+
+.download-buttons{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.store-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: auto;
+}
+
+.app-store{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-store img{
+    width: 10rem;
+    height: auto;
+}
+
+.google-store img{
+    padding-top: 3px;
+    width: 11.1rem;
+    height: auto;
+}
