@@ -73,7 +73,7 @@ body{
 }
 
 .login-stuff button{
-    margin: 4px 0;
+    margin: 14px 0 4px 0;
     font-size: 14px;
     height: 30px;
     border: none;
@@ -143,7 +143,8 @@ body{
 
 .app-store img{
     width: auto;
-    height: 120px;
+    height: 123px;
+    margin-top: 2px;
     margin-right: 5px;
 }
 
